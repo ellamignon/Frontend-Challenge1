@@ -1,0 +1,164 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  font-family: sans-serif;
+  font-size: 10px;
+  margin: 0;
+}
+
+.container {
+  width: 375px;
+  margin: 0 auto;
+}
+
+.statusbar {
+  position: absolute;
+  margin-top: -10px;
+  margin-left: -15px;
+  width: 375px;
+  height: 20px;
+
+}
+
+nav {
+  background-color: #FF383F;
+  margin: 0 auto;
+  padding: 10px 0 15px 15px;
+  position: fixed;
+  width: 375px;
+  height: 85px;
+  z-index: 1;
+}
+
+.search {
+  background-color: #EFEFEF;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  height: 52px;
+
+}
+
+.search input[type=text] {
+    height: 36px;
+    width: 342px;
+    padding-top: 10px;
+    margin-left: 16px;
+    margin-right: 16px;
+    border: none;
+    font-size: 17px;
+    border-radius: 8px;
+    font-family: "SF Pro Text";
+    font-weight: lighter;
+    background-color: #E4E4E4;
+}
+
+.arrow-left {
+  position: absolute;
+  left: 5%;
+  top: 65%;
+  margin-top: -10px;
+}
+
+.bus-stop {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 32px;
+  padding-right: 16px;
+  width: 375px;
+  color: white;
+}
+
+.busybus {
+padding-top: 85px;
+}
+
+.route-data {
+  position: relative;
+  box-sizing: border-box;
+  background-color: white;
+  width: 375px;
+  height: 72px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border-bottom: 1px solid lightgray;
+  border-color: lightgray;
+  margin-right: 3px;
+}
+
+.content {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 74px;
+  padding-right: 16px;
+}
+
+.arrow {
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  margin-top: -10px;
+  color: #8E8E93;
+
+}
+
+.box {
+  float: left;
+  height: 40px;
+  width: 42px;
+  margin-left: 16px;
+  margin-top: 15px;
+  background-color: #757575;
+  border-radius: 8px;
+}
+
+h1 {
+  font-family: "SF Pro Text";
+  font-size: 19px;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+h2 {
+  position: absolute;
+  left: 25%;
+  top: 65%;
+  margin-top: -10px;
+  font-family: "SF Pro Text";
+  font-size: 17px;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: "SF Pro Text";
+  font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  color: #757575;
+  font-weight: 100;
+}
+
+h4 {
+margin-top: 8px;
+margin-bottom: 8px;
+margin-left: 4px;
+margin-right: 4px;
+color: white;
+font-size: 20px;
+font-weight: lighter;
+line-height: 25px;
+text-align: center;
+font-family: "SF Pro Text";
+
+}
+
+.route-data:hover {
+  background-color: lightgray;
+}
